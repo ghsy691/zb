@@ -9,3 +9,42 @@ Saving to: ‘go.sh’
 go.sh                             [ <=>                                                 ]  11.24K  --.-KB/s    in 0.001s  
 
 2018-03-17 22:49:09 (17.2 MB/s) - ‘go.sh’ saved [11510]
+$ sudo bash go.sh
+Installing curl
+Updating software repo
+Installing curl
+Selecting previously unselected package curl.
+(Reading database ... 36028 files and directories currently installed.)
+Preparing to unpack .../curl_7.38.0-4+deb8u5_amd64.deb ...
+Unpacking curl (7.38.0-4+deb8u5) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Setting up curl (7.38.0-4+deb8u5) ...
+Installing V2Ray v2.33 on x86_64
+Donwloading V2Ray.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   608    0   608    0     0   2403      0 --:--:-- --:--:-- --:--:--  2412
+100 2583k  100 2583k    0     0  1229k      0  0:00:02  0:00:02 --:--:-- 1847k
+Installing unzip
+Installing unzip
+Selecting previously unselected package unzip.
+(Reading database ... 36035 files and directories currently installed.)
+Preparing to unpack .../unzip_6.0-16+deb8u3_amd64.deb ...
+Unpacking unzip (6.0-16+deb8u3) ...
+Processing triggers for mime-support (3.58) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Setting up unzip (6.0-16+deb8u3) ...
+Extracting V2Ray package to /tmp/v2ray.
+Archive:  /tmp/v2ray/v2ray.zip
+  inflating: /tmp/v2ray/v2ray-v2.33-linux-64/readme.md  
+  inflating: /tmp/v2ray/v2ray-v2.33-linux-64/systemd/v2ray.service  
+  inflating: /tmp/v2ray/v2ray-v2.33-linux-64/systemv/v2ray  
+  inflating: /tmp/v2ray/v2ray-v2.33-linux-64/v2ray  
+  inflating: /tmp/v2ray/v2ray-v2.33-linux-64/vpoint_socks_vmess.json  
+  inflating: /tmp/v2ray/v2ray-v2.33-linux-64/vpoint_vmess_freedom.json  
+PORT:40827
+UUID:505f001d-4aa8-4519-9c54-6b65749ee3fb
+Created symlink from /etc/systemd/system/multi-user.target.wants/v2ray.service to /lib/systemd/system/v2ray.service.
+V2Ray v2.33 is installed.
+$ sudo systemctl start v2ray
+
